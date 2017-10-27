@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/cat_setting_connect">
+
+        <CheckBoxPreference
+            android:key="use_connect"
+            android:title="@string/internet_connect"
+            android:summary="@string/connect_wifi"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/cat_setting_periods_clock_signal">
+
+        <CheckBoxPreference
+            android:key="switch_periods_clock_signal"
+            android:title="@string/switch_periods_clock_signal_title"
+            android:summary="@string/switch_periods_clock_signal_desc"
+            android:defaultValue="false"/>
+
+        <EditTextPreference
+            android:key="periods_clock_signal"
+            android:title="@string/periods_clock_signal_title"
+            android:summary="@string/periods_clock_signal_desc"
+            android:defaultValue="5"
+            android:dialogTitle="@string/periods_clock_signal_modal"
+            android:inputType="number"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/cat_setting_period_user_time">
+
+        <CheckBoxPreference
+            android:key="switch_period_user_time"
+            android:title="@string/switch_period_user_time_title"
+            android:summary="@string/switch_period_user_time_desc"
+            android:defaultValue="false"/>
+
+        <EditTextPreference
+            android:key="period_user_time"
+            android:title="@string/period_user_time_title"
+            android:summary="@string/period_user_time_desc"
+            android:defaultValue="30"
+            android:dialogTitle="@string/period_user_time_modal"
+            android:inputType="number"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/cat_setting_period_total_time">
+
+        <CheckBoxPreference
+            android:key="switch_period_total_time"
+            android:title="@string/switch_period_total_time_title"
+            android:summary="@string/switch_period_total_time_desc"
+            android:defaultValue="false"/>
+
+        <EditTextPreference
+            android:key="period_total_time"
+            android:title="@string/period_total_time_title"
+            android:summary="@string/period_total_time_desc"
+            android:defaultValue="120"
+            android:dialogTitle="@string/period_total_time_modal"
+            android:inputType="number"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/cat_setting_signal">
+
+        <RingtonePreference
+            android:key="timer_sound_sel"
+            android:title="@string/timer_sound_title"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:summary="@string/timer_sound"
+            android:ringtoneType="alarm"/>
+
+        <EditTextPreference
+            android:key="time_signal"
+            android:title="@string/time_signal_title"
+            android:summary="@string/time_signal_desc"
+            android:defaultValue="3"
+            android:dialogTitle="@string/time_signal_modal"
+            android:inputType="number"/>
+
+        <CheckBoxPreference
+            android:key="timer_vibro_sel"
+            android:title="@string/timer_vibro_title"
+            android:summary="@string/timer_vibro"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/cat_setting_events">
+
+        <EditTextPreference
+            android:key="count_load_events"
+            android:title="@string/count_load_events_title"
+            android:summary="@string/count_load_events_desc"
+            android:defaultValue="10"
+            android:dialogTitle="@string/count_load_events_modal"
+            android:inputType="number"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/info5"
+            android:title="@string/nav_about" />
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/calendar147"
+            android:title="@string/nav_event" />
+        <item
+            android:id="@+id/nav_rules"
+            android:icon="@drawable/monarchy38"
+            android:title="@string/nav_rules" />
+        <item
+            android:id="@+id/nav_clock"
+            android:icon="@drawable/time36"
+            android:title="@string/nav_clock" />
+        <item
+            android:id="@+id/nav_site"
+            android:icon="@drawable/tool687"
+            android:title="@string/nav_site" />
+        <item
+            android:id="@+id/nav_buy"
+            android:icon="@drawable/buy10"
+            android:title="@string/nav_buy" />
+        <item
+            android:id="@+id/nav_club"
+            android:icon="@drawable/globe41"
+            android:title="@string/nav_club" />
+        <item
+            android:id="@+id/nav_author"
+            android:icon="@drawable/users53"
+            android:title="@string/nav_author" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/exit"
+            android:title="@string/nav_exit" />
+    </group>
+
+</menu>

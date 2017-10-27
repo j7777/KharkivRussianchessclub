@@ -1,0 +1,181 @@
+<resources>
+    <string name="navigation_drawer_open">Открыть</string>
+    <string name="navigation_drawer_close">Закрыть</string>
+
+    <string name="app_name">ХКРШ</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBwDnrQ2HSLNjWm0ifGvLUEJckObCnczQc</string>
+
+    <!--Настройки-->
+    <string name="action_settings">Настройки</string>
+
+    <string name="cat_setting_connect">Настройки сети</string>
+    <string name="connect_wifi">Использовать только при wifi подключении</string>
+    <string name="internet_connect">Сеть</string>
+
+    <string name="cat_setting_periods_clock_signal">Настройки времени хода</string>
+    <string name="switch_periods_clock_signal_title">Время на ход</string>
+    <string name="switch_periods_clock_signal_desc">Ограничение времени на каждый ход игрока</string>
+
+    <string name="periods_clock_signal_title">Время на ход игрока</string>
+    <string name="periods_clock_signal_desc">Значение времени на каждый ход игрока (только сигнал)</string>
+    <string name="periods_clock_signal_modal">Введите интервал в минутах</string>
+
+    <string name="cat_setting_period_user_time">Настройки партии игрока</string>
+    <string name="switch_period_user_time_title">Время на партию</string>
+    <string name="switch_period_user_time_desc">Ограничение времени партии игрока</string>
+
+    <string name="period_user_time_title">Время партии игрока</string>
+    <string name="period_user_time_desc">Значение времени партии игрока (сигнал и окончание игры)</string>
+    <string name="period_user_time_modal">Введите время в минутах</string>
+
+    <string name="cat_setting_period_total_time">Настройки времени игры</string>
+    <string name="switch_period_total_time_title">Время на игру</string>
+    <string name="switch_period_total_time_desc">Ограничение времени игры</string>
+
+    <string name="period_total_time_title">Общее время игры</string>
+    <string name="period_total_time_desc">Общее значение времени на игру (сигнал и окончание игры)</string>
+    <string name="period_total_time_modal">Введите время в минутах</string>
+
+    <string name="cat_setting_signal">Настройки сигналов</string>
+
+    <string name="time_signal_modal">Введите значение продолжительности сигнала</string>
+    <string name="time_signal_title">Продолжительность сигнала</string>
+    <string name="time_signal_desc">Продолжительность сигнала в секундах</string>
+
+    <string name="cat_setting_events">Настройки мероприятий</string>
+    <string name="count_load_events_title">Мероприятия</string>
+    <string name="count_load_events_desc">Количество скачиваемых мероприятий</string>
+    <string name="count_load_events_modal">Введите количество скачиваемых мероприятий (1-50)</string>
+
+    <!--Главный список-->
+    <string name="nav_about">О клубе</string>
+    <string name="nav_event">Мероприятия</string>
+    <string name="nav_rules">Правила игры</string>
+    <string name="nav_clock">Игровой таймер</string>
+    <string name="nav_site">Сайт клуба</string>
+    <string name="nav_buy">Где приобрести</string>
+    <string name="nav_club">Клубы в других городах</string>
+    <string name="nav_author">Об авторе</string>
+    <string name="nav_exit">Выход</string>
+
+    <!--Города-->
+    <string-array name="city_list">
+        <item>Харьков</item>
+        <item>49.993499</item>
+        <item>36.230376</item>
+        <item>Краматорск</item>
+        <item>48.745894</item>
+        <item>37.585377</item>
+        <item>Житомир</item>
+        <item>50.25468</item>
+        <item>28.658755</item>
+        <item>Львов</item>
+        <item>49.839678</item>
+        <item>24.029709</item>
+        <item>Полтава</item>
+        <item>49.588264</item>
+        <item>34.551416</item>
+    </string-array>
+
+    <!--Таймер-->
+    <string-array name="timer_list">
+        <item>Ход белых</item>
+        <item>Ход коричневых</item>
+        <item>Ход чёрных</item>
+        <item>Закончить партию</item>
+        <item>История</item>
+    </string-array>
+
+    <!--Игры-->
+    <string-array name="games_list">
+        <item>Подробнее</item>
+        <item>Удалить</item>
+        <item>Отмена</item>
+    </string-array>
+
+    <!--Телефон-->
+    <string-array name="phone_list">
+        <item>Отправить СМС</item>
+        <item>Позвонить</item>
+        <item>Отмена</item>
+    </string-array>
+
+    <!--Фигуры-->
+    <string-array name="figures_list">
+        <item>Доска</item>
+        <item>Пешка</item>
+        <item>Ладья</item>
+        <item>Конь</item>
+        <item>Офицер</item>
+        <item>Королева</item>
+        <item>Король</item>
+    </string-array>
+
+    <!--Страницы-->
+    <string name="title_activity_about_club">О клубе</string>
+    <string name="title_activity_author">Об авторе</string>
+    <string name="title_activity_map">Клубы в других городах</string>
+    <string name="title_activity_game_clock">Игровые часы</string>
+    <string name="title_activity_events">Ближайшие мероприятия</string>
+    <string name="title_activity_history_games">История игр</string>
+    <string name="title_activity_history_full">Список ходов</string>
+    <string name="title_activity_rules">Правила игры</string>
+
+    <string name="buy_url">http://intelligent-games.com.ua/?product_cat=%D0%BD%D0%B0%D1%81%D1%82%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5-%D0%B8%D0%B3%D1%80%D1%8B</string>
+    <string name="site_url">http://ruschess.kh.ua/</string>
+
+    <!--Инфо сообщения-->
+    <string name="error_load">Ошибка при загрузке данных.</string>
+    <string name="info_not_internet">Отсутствует подключение к интернету.</string>
+    <string name="not_support_function">Ваша версия Андроид не поддерживает эту функцию.</string>
+    <string name="not_connect_wifi">Нет доступных wifi подключений.</string>
+    <string name="answ_stop_clock">Вы действительно хотите остановить часы?</string>
+    <string name="str_yes">Да</string>
+    <string name="str_no">Нет</string>
+    <string name="white_figures">Белые фигуры</string>
+    <string name="black_figures">Чёрные фигуры</string>
+    <string name="brown_figures">Коричневые фигуры</string>
+    <string name="total_time">Общее время</string>
+    <string name="move_white">Ход белых</string>
+    <string name="move_brown">Ход коричневых</string>
+    <string name="move_black">Ход чёрных</string>
+    <string name="game_finish">Партия завершена</string>
+    <string name="game_history">История</string>
+    <string name="setting_timer">Установки таймера</string>
+    <string name="result_game">Результат игры</string>
+    <string name="timer_sound">Звуковой сигнал таймера</string>
+    <string name="timer_sound_title">Звук таймера</string>
+    <string name="srt_white_time">Время белых фигур</string>
+    <string name="srt_brown_time">Время коричневых фигур</string>
+    <string name="srt_black_time">Время чёрных фигур</string>
+    <string name="srt_total_time">Общее время</string>
+    <string name="timer_vibro_title">Вибрация таймера</string>
+    <string name="timer_vibro">Вибро сигнал таймера</string>
+    <string name="load_data">Загрузка данных...</string>
+    <string name="time_string">000:00:00</string>
+    <string name="confirm_event_calendar">Добавить событие в календарь?</string>
+    <string name="confirm_event_map">Посмотреть на карте?</string>
+    <string name="confirm_event_call">Позвонить?</string>
+    <string name="confirm_event_email">Написать на email?</string>
+    <string name="confirm_event_site">Посмотреть на сайте?</string>
+    <string name="mess_name_game">Введите название игры</string>
+    <string name="but_finish">Готово</string>
+    <string name="str_game">Игра</string>
+    <string name="sel_game">Выберите действие</string>
+    <string name="quest_dell">Удалить выбранный?</string>
+    <string name="quest_dell_all">Удалить всё?</string>
+    <string name="quest_dell_game">Удалить игру?</string>
+    <string name="quest_to_event">Вопрос по мероприятию</string>
+    <string name="error_connect">Нет доступных подключений</string>
+    <string name="error_wifi">Нет одключения wifi</string>
+    <string name="rules_text">Самый простой вариант игры - выигрывает тот, кто поставит первым мат. Остальные двое при этом, проигрывают. Так что нужно не только стремиться первым поставить мат, но и не позволить это сделать другим игрокам.</string>
+    <string name="title_activity_event_full">Событие</string>
+    <string name="title_activity_show_map">Карта клубов</string>
+    <string name="error_clear">Ошибка при удалении</string>
+    <string name="history_empty">История пуста</string>
+
+    <string name="time_white_finish">Время белых фигур истекло</string>
+    <string name="time_brown_finish">Время коричневых фигур истекло</string>
+    <string name="time_black_finish">Время чёрных фигур истекло</string>
+    <string name="time_total_finish">Время игры истекло</string>
+</resources>
